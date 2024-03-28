@@ -29,7 +29,7 @@ function translate() {
     // Check if the email input element exists
     if (emailInputElement) {
         // Change the placeholder text of the email input element
-        emailInputElement.placeholder = 'הכנס בתובת אימייל';
+        emailInputElement.placeholder = 'הכנס כתובת אימייל';
     } else {
         console.error('Email input element not found');
     }
